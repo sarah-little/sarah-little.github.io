@@ -1,5 +1,6 @@
 /* This is a comment*/
 /* This style sheet is for the index page only*/
 body {
-    background-color:azure;
+    background-color:#689d5940;
+    background-image: linear-gradient(to bottom right, #689d5940, white);
 }
