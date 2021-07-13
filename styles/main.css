@@ -74,6 +74,15 @@ h1 {
         text-align: center;
         }
 
+.tech-blogs-body {
+            background-image: linear-gradient(to bottom right, rgb(50, 134, 145), white);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+
 figure {
     font-size: 1.8em;
     width: 50%;
@@ -87,6 +96,14 @@ figure {
     width: 80%;
     height: 321px;
 }
+
+#padding-pic {
+    text-align:center;
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /*FOOTERS*/
 footer {
     background-image: url(images/Orange-pattern.png);
