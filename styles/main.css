@@ -5,6 +5,7 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 2560px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 /*HEADER BOX*/
 .core-headers {
@@ -43,6 +44,14 @@ h1 {
     text-align: center;
     }
 
+.core-blogs-body {
+    background-image: linear-gradient(to bottom right, rgb(175, 136, 63), white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
 figure {
     font-size: 1.8em;
     width: 50%;
