@@ -49,6 +49,34 @@ body {
     margin: 60px 60px 60px 60px;
 }
 
+.core-card {
+    font-size: 1.8em;
+    width: 50%;
+    background-position:left;
+    background-image: url(images/Orange-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    box-shadow: gray -20px 20px;
+}
+
+.tech-card {
+    font-size: 1.8em;
+    width: 50%;
+    background-image: url(images/Teal-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    position: right;
+    box-shadow: gray -20px 20px;
+}
+
 
 footer {
     background-image: url(images/ponga.png);
