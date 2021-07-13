@@ -7,7 +7,7 @@
     max-width: 2560px;
     font-family: 'Noto Sans JP', sans-serif;
 }
-/*HEADER BOX*/
+/*HEADER BOXES*/
 .core-headers {
     background-image: url(images/Orange-pattern.png);
     background-position: top;
@@ -20,6 +20,19 @@
     border-bottom-style: solid;
     border-bottom-width: 10px;
     border-bottom-color: rgb(175, 136, 63);
+}
+.tech-headers {
+    background-image: url(images/Blue-pattern.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(50, 134, 145);
 }
 h1 {
     font-size: 80px;
@@ -35,7 +48,7 @@ h1 {
         margin-top: 0px;
         margin-bottom: 10px;
     }
-
+/*GENERAL*/
 .core-blogs-index {
     background-image: linear-gradient(to bottom right, rgb(175, 136, 63), white);
     background-repeat: no-repeat;
@@ -52,6 +65,15 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     }
+
+.tech-blogs-index {
+        background-image: linear-gradient(to bottom right, rgb(50, 134, 145), white);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Noto Sans JP', sans-serif;
+        text-align: center;
+        }
+
 figure {
     font-size: 1.8em;
     width: 50%;
@@ -63,9 +85,9 @@ figure {
 
 .figure-pics{
     width: 80%;
-
+    height: 321px;
 }
-
+/*FOOTERS*/
 footer {
     background-image: url(images/Orange-pattern.png);
     background-position: bottom;
@@ -83,3 +105,21 @@ footer {
     padding-bottom: 10px;   
     padding-top: 10px; 
     }
+
+ .tech-footer {
+        background-image: url(images/Blue-pattern.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        border-radius: 5px;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: rgb(50, 134, 145);
+        padding-bottom: 10px;   
+        padding-top: 10px; 
+        }
