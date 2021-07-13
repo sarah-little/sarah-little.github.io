@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stories and Legends (PAGE title) </title>
+    <title>JS & DOM </title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin;>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet";>
   </head>
-  
-  <body>
-    <h1>Javascript - DOM Blog</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-        
-    <p>
-      HTML is like a screenplay and CSS is like the set-design and costuming. Then Javascript is the choreography and special effects (lighting, fog, etc). 
-    </p>
-     <p> HTML has certain conventions (like acts or scenes in a play – beginning, middle, end, credits, etc) that describe the content of a page (the words, pictures or items on that page). 
+  <header id="header" class="tech-headers">
+    <h1>Javascript and the DOM (Document Object Model)</h1> 
+</header>
+  <body class="tech-blogs-body">
+    <h2>What's an analogy to describe the differences between HTML and CSS?</h2>
+      <p>
+        HTML is like a screenplay and CSS is like the set-design and costuming. Then Javascript is the choreography and special effects (lighting, fog, etc). 
+      </p>
+      <p> HTML has certain conventions (like acts or scenes in a play – beginning, middle, end, credits, etc) that describe the content of a page (the words, pictures or items on that page). 
       </p>
       <p>CSS is a lot more limitless, as it describes the appearance and formats layouts that are used on a web-page. This would be the equivalent to the backdrop and props and costuming on a play or TV show – it brings the colour and the character and makes it look interesting/good/nice. 
       </p>
       <p>Another analogy for the nerdier non-technical person would be HTML is like the genotype (genetic code that describes what a thing is, like human person with a head and body and a tail) and CSS is like the phenotype (genetic code that is expressed as physical features, e.g. blond hair, green eyes, fluffy long-haired  curly tail). Then, based on those two things, the human person can do things (like breathing, running, talking, wagging, parkour) which is where Javascript would fit in. 
       </p>
+    <h2>Explain control flow and loops using an example process from everyday life:</h2>
       <p>Control Flow is the order that a computer reads your code, and is usually from the first line to the last line. An everyday day process that emulates this would be following Google Maps from your house to the grocery store. You set the destination, which gives you a logical route to follow (the control flow is from your house to the store, since we haven’t invented travel portals yet). You start the car (like clicking to load the page, or initiating an event) at your home, then drive toward town.  
       </p>
       <p>The sequence (control flow) is important! If you tried to do this out of order, you would never know where the grocery store was, or you may find that your car had no wheels, or that it was actually a bicycle, or that the road to town hadn’t been built yet.  
@@ -27,22 +31,25 @@
       </p>
       <p>The for is a conditional loop, which means that it runs based on if a certain condition is true. As long as it stays true, the code is going to keep executing. 
       </p>
-      <p>This was an example of a ‘for’ loop – which goes for a specified duration or until the condition is false. We intend to drive only once around the roundabout looking for the third exit, because we know when it’s coming up (thanks to Google Maps). We are looking out for the third exit, so would keep driving until we either took the third exit or missed it (the loop stopped after there were no more exits to look for). 
+      <p>This was an example of a ‘for’ loop – which goes for a specified duration or until the condition is false. We intend to drive only once around the roundabout looking <strong>for</strong> the third exit, because we know when it’s coming up (thanks to Google Maps). We are looking out for the third exit, so would keep driving until we either took the third exit or missed it (the loop stopped after there were no more exits to look for). 
       </p>
-      <p>An example of the ‘while’ loop would be to drive around and around the roundabout until you’re sure that Google Maps was right and trustworthy and that the exit you need is actually the third one (because the sign on the road says so, but it took you five circuits of the roundabout to make out the tiny road sign in the distance). We are looking for the correct exit while going around the roundabout (but we don’t know when we’ll see it). 
+      <p>An example of the ‘while’ loop would be to drive around and around the roundabout until you’re sure that Google Maps was right and trustworthy and that the exit you need is actually the third one (because the sign on the road says so, but it took you five circuits of the roundabout to make out the tiny road sign in the distance). We are looking for the correct exit <strong>while</strong> going around the roundabout (but we don’t know when we’ll see it). 
       </p>
-      <p>An example of the ‘do-while’ loop would be that you already know you have to take the third exit (because Google Maps said so). You only have to do the driving on the roundabout while you get to the third exit. If you could just turn right immediately you would, but since the roundabout exists, you’re forced to go around it at least once to get there.  
+      <p>An example of the ‘do-while’ loop would be that you already know you have to take the third exit (because Google Maps said so). You only have to <strong>do</strong> the driving on the roundabout <strong>while</strong> you get to the third exit. If you could just turn right immediately you would, but since the roundabout exists, you’re forced to go around it at least once to get there.  
       </p>
       <p>So, in summary, loops are repetitive processes (statements) that will keep running until there is either nothing left to loop over, or until the condition becomes false. For as long as the given condition is true, it will keep executing. 
       </p>
+    <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
       <p>The DOM (Document Object Model) is a tool that can be used to look at the content and features of web pages. It allows access to all the elements in html, css and javascript, and lets you adjust live within the browser. 
       </p>
+    <h2>Explain the difference between accessing data from arrays and objects.</h2>
       <p>Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Arrays are a special type of variable that is also mutable and can also be used to store a list of values. Objects represent “things” with characteristics (aka properties), while arrays create and store lists of data in a single variable. 
       </p>
+    <h2>Explain what functions are and why they are useful.</h2>
       <p>Functions allow you to store a piece of code that does an activity inside a defined block and then call that code whenever you need it using a single short command, rather than having to type out the same code multiple times. 
     </p>
     
-    <!-- Need to work on the format -->
-  
+    <footer class="tech-footer"><a href="../index.html">Return Home</a> | <a href="tech-blogs.html">Return to Core Blogs</a> | <a href="#header">Go to Top</a></footer>
+
   </body>
 </html>
