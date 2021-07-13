@@ -1,13 +1,42 @@
-/* This is a comment*/
 /* This style sheet is for the index page only*/
-head {
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 2560px;
 }
+/*HEADER BOX*/
+header {
+    background-image: url(images/ponga.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 5px;
+    }
+
+    .header-tag {
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
 
 body {
     background-image: linear-gradient(to bottom right, #689d5940, white);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Noto Sans JP', sans-serif;
-}
+    }
+
+
+
